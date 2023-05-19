@@ -22,6 +22,8 @@ The macOS and Web apps are located in the `apps` folder, the web server in the `
 
 ### Running Locally
 
+> ℹ️ At least **Flutter v3.10** and **Dart v3** is required. Run: `flutter channel stable` and `flutter upgrade`.
+
 Steps to run the applications and server locally:
 
 1. Make sure you have [Flutter installed](https://docs.flutter.dev/get-started/install) and working.
