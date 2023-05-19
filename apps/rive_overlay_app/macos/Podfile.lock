@@ -1,0 +1,47 @@
+PODS:
+  - desktop_drop (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - isar_flutter_libs (1.0.0):
+    - FlutterMacOS
+  - macos_window_utils (1.0.0):
+    - FlutterMacOS
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - rive_common (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - desktop_drop (from `Flutter/ephemeral/.symlinks/plugins/desktop_drop/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - isar_flutter_libs (from `Flutter/ephemeral/.symlinks/plugins/isar_flutter_libs/macos`)
+  - macos_window_utils (from `Flutter/ephemeral/.symlinks/plugins/macos_window_utils/macos`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+  - rive_common (from `Flutter/ephemeral/.symlinks/plugins/rive_common/macos`)
+
+EXTERNAL SOURCES:
+  desktop_drop:
+    :path: Flutter/ephemeral/.symlinks/plugins/desktop_drop/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  isar_flutter_libs:
+    :path: Flutter/ephemeral/.symlinks/plugins/isar_flutter_libs/macos
+  macos_window_utils:
+    :path: Flutter/ephemeral/.symlinks/plugins/macos_window_utils/macos
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+  rive_common:
+    :path: Flutter/ephemeral/.symlinks/plugins/rive_common/macos
+
+SPEC CHECKSUMS:
+  desktop_drop: 69eeff437544aa619c8db7f4481b3a65f7696898
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  isar_flutter_libs: 43385c99864c168fadba7c9adeddc5d38838ca6a
+  macos_window_utils: 933f91f64805e2eb91a5bd057cf97cd097276663
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+  rive_common: fab8476ce8352bf54152a913f393a8696d3dc98c
+
+PODFILE CHECKSUM: 16208599a12443d53889ba2270a4985981cfb204
+
+COCOAPODS: 1.11.3
