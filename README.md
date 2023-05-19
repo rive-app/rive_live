@@ -30,7 +30,8 @@ Steps to run the applications and server locally:
 2. Install/Update [Dart Frog](https://dartfrog.vgv.dev/): `dart pub global activate dart_frog_cli`
 3. Clone this repository: `git clone https://github.com/rive-app/rive_live`
 4. `cd rive_live`
-5. Run everything locally: `make run_local_all`
+5. Get dependencies: `make get_all`
+6. Run everything locally: `make run_local_all`
 
 This may take a while, especially the first time. Wait until the macOS app and web app is launched.
 

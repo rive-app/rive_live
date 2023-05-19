@@ -1,3 +1,18 @@
+# GET DEPENDENCIES
+get_all:
+	make get_web_app
+	make get_overlay_app
+	make get_webserver
+
+get_web_app:
+	cd apps/rive_live_webapp/ && flutter pub get
+
+get_overlay_app:
+	cd apps/rive_overlay_app/ && flutter pub get
+
+get_webserver:
+	cd network && dart pub get
+
 # RUN LOCAL - Run apps locally, pointing to localhost
 run_local_all:
 	make run_local_web_server & make run_local_web_app & make run_local_overlay_app
