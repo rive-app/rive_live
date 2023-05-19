@@ -57,3 +57,7 @@ If you need to run the apps separately, or from a unique terminal, take a look a
 3. Distribute/Host the macOS and web app. You can 
 
 All of the commands live in the ****************Makefile**************** if you want to run them directly. For convenience you can also run `make clean_and_build_all`.
+
+### Local Storage
+The Rive Live overlay app makes use of [Isar](https://isar.dev) to persist the configured Rive animation data. This package requires [code generation](https://isar.dev/tutorials/quickstart.html#_3-run-code-generator) when updating the storage models:
+- `apps/rive_overlay_app/lib/models/animations_data.dart`
