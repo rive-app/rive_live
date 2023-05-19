@@ -1,3 +1,4 @@
 build/
 ./dart_tool
-./dart_frog
+/.dart_tool/
+/.dart_frog/
