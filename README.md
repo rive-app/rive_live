@@ -14,7 +14,14 @@ You can create a variety of different applications with Rive for livestreams or 
 
 ## Development
 
-[Flutter](https://flutter.dev/) is used for the web and macOS app, and [Dart Frog](https://dartfrog.vgv.dev/) is used for the web server. This project makes use of the [Rive Flutter package](https://help.rive.app/runtimes/overview/flutter) to play back Rive animations. See our [runtime documentation](https://help.rive.app/runtimes/overview) for information on how to integrate [Rive](http://rive.app) for various platforms/runtimes.
+**Considerations**: You could also make use of our [macOS runtime](https://help.rive.app/runtimes/overview/ios) to create a similar application. All you need to do is:
+- Choose one of our runtimes to play your Rive animation
+- Configure the application in such a way that you can trigger the animation to play
+- Make the application window transparent (or make use of a Chroma key and set a color to key out)
+
+[Flutter](https://flutter.dev/) is used for the web and macOS app in this sample, and [Dart Frog](https://dartfrog.vgv.dev/) is used for the web server. This project makes use of the [Rive Flutter runtime](https://help.rive.app/runtimes/overview/flutter) to play back Rive animations. See our [runtime documentation](https://help.rive.app/runtimes/overview) for information on how to integrate [Rive](http://rive.app) for various platforms/runtimes.
+
+This sample uses the [flutter_acrylic package](https://pub.dev/packages/flutter_acrylic) to make the window transparent. Adding Windows support should be possible.
 
 ### Project Structure
 
